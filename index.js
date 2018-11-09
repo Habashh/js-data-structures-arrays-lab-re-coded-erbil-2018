@@ -17,8 +17,10 @@ function appendDriver(name){
  const copyOfdrivers=[...drivers,"Broom"];
  return copyOfdrivers
 }
-prependDriver(name)
-"Arnold"
+function prependDriver(name){
+const copyOfdrivers=[...drivers,"Broom"];
+ return copyOfdrivers
+"Arnold"}
 function removeFirstDriver(){
   const copyOfdrivers=drivers.slice(1);
   return copyOfdrivers
