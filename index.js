@@ -16,5 +16,5 @@ function appendDriver(name){
  return drivers.push("Broom");
 }
 function removeLastDriver(){
-  drivers.slice(3);
+  drivers.slice(2);
 }
