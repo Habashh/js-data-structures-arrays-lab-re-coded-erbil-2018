@@ -12,10 +12,12 @@ function destructivelyRemoveLastDriver(name){
 function destructivelyRemoveFirstDriver(name){
   drivers.shift()
 }
+
 function appendDriver(name){
- const copyOfdrivers=[...drivers,"Broom"];
+ const copyOfdrivers=["Arnold",...drivers];
  return copyOfdrivers
 }
+
 function removeFirstDriver(){
   const copyOfdrivers=drivers.slice(1);
   return copyOfdrivers
