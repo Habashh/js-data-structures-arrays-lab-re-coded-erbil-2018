@@ -20,3 +20,7 @@ function removeFirstDriver(){
   const copyOfdrivers=drivers.slice(1);
   return copyOfdrivers
 }
+function removeLastDriver(){
+  const copyOfdrivers=drivers.slice(0,2);
+  return copyOfdrivers
+}
