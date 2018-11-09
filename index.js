@@ -13,12 +13,11 @@ function destructivelyRemoveFirstDriver(name){
   drivers.shift()
 }
 
-
 function appendDriver(name){
- const copyOfdrivers=["Arnold",...drivers];
+ const copyOfdrivers=[...drivers,"Broom"];
  return copyOfdrivers
 }
-
+"Arnold"
 function removeFirstDriver(){
   const copyOfdrivers=drivers.slice(1);
   return copyOfdrivers
